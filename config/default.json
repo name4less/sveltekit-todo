@@ -1,0 +1,4 @@
+{
+	"mongoURI": "mongodb+srv://root:toor@cluster0.dslht.mongodb.net",
+	"mongoDB": "users"
+}

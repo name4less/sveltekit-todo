@@ -1,0 +1,84 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.style-clock {
+	padding-bottom: 0.5rem !important;
+	padding-top: 0.5rem !important;
+}
+
+.hide {
+	transition: -webkit-transform 0.5s ease;
+	transition: transform 0.5s ease;
+
+	-webkit-transform: translateX(-110%);
+	-ms-transform: translateX(-110%);
+	transform: translateX(-110%);
+	width: 380px;
+}
+
+.show {
+	transition: -webkit-transform 0.5s ease;
+	transition: transform 0.5s ease;
+
+	-webkit-transform: translateX(0px);
+	-ms-transform: translateX(0px);
+	transform: translateX(0px);
+	width: 380px;
+}
+
+.index {
+	z-index: 20 !important;
+}
+
+.round {
+	position: relative;
+}
+
+.round label {
+	background-color: #fff;
+	border: 1px solid rgb(161, 161, 161);
+	border-radius: 50%;
+	cursor: pointer;
+	height: 20px;
+	position: absolute;
+	width: 20px;
+}
+
+.checkedArrow {
+	border: 2px solid #fff;
+	border-top: none;
+	border-right: none;
+	content: '';
+	height: 6px;
+	left: 4px;
+	opacity: 1;
+	position: absolute;
+	top: 5px;
+	transform: rotate(-45deg);
+	width: 10px;
+}
+
+.notCompleted {
+	display: block;
+	animation: fade-in 1s;
+}
+
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fade-out {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}

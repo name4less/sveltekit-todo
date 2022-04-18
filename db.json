@@ -1,0 +1,45 @@
+{
+  "tasks": [
+    {
+      "title": "Test task",
+      "description": "",
+      "dueDate": "2022-04-19T03:59:00.660Z",
+      "project_id": -1,
+      "allDay": true,
+      "user_id": 1,
+      "completed": false,
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "email": "admin@test.com",
+      "password": "$2b$10$p2u0f8pI9QmHx91qhamdj.uLdU0OrtYNyOYQtN6.nEUhthhXJwlni",
+      "avatar": "",
+      "id": 1
+    }
+  ],
+  "sessions": [
+    {
+      "id": "de269d21-ba73-4457-82cf-6f0e067d7003",
+      "userId": "1"
+    }
+  ],
+  "colors": [
+    { "id": 1, "name": "Red", "hex": "#FF5733" },
+    { "id": 2, "name": "Yellow", "hex": "#FFBE33" },
+    { "id": 3, "name": "Green", "hex": "#11CE64" },
+    { "id": 4, "name": "Blue", "hex": "#11C5CE" },
+    { "id": 5, "name": "Pink", "hex": "#CE11C5" },
+    { "id": 6, "name": "Purple", "hex": "#A311CE" },
+    { "id": 12, "name": "Gray", "hex": "#bfbfbf" }
+  ],
+  "projects": [
+    {
+      "title": "Work",
+      "color": 12,
+      "user_id": 1,
+      "id": 1
+    }
+  ]
+}
