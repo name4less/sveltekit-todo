@@ -1,3 +1,8 @@
+# admin permitions to app
+
+email: admin@test.com
+password: 1234
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
